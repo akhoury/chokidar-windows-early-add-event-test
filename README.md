@@ -10,5 +10,7 @@ mkdir -p ./chokidar-test/source
 wget --output-document=./chokidar-test/source/largeFile https://speed.hetzner.de/100MB.bin
 ```
 
+or you can use an even larger files like https://speed.hetzner.de/1GB.bin or https://speed.hetzner.de/10GB.bin
+
 * then `npm start` to see results
 
