@@ -27,6 +27,7 @@ const largeFilepath = path.join(sourceDir, largeFilename);
     //   pollInterval: 300
     // }
   }).on('add', async (filepath) => {
+    console.log(`add event fired for:`, filepath)
     console.timeEnd(`${filename(filepath)}---WHEN-ADD-FIRES`)
   })
 
