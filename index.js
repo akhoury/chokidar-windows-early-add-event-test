@@ -54,5 +54,4 @@ const largeFilepath = path.join(sourceDir, largeFilename);
   fs.copyFileSync(largeFilepath, target3)
   console.timeEnd(`${filename(target3)}----WHEN-COPY-DONE`)
 
-  process.exit()
 })()
