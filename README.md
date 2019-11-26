@@ -3,6 +3,9 @@ a chokidar test case to duplicate add-event firing too early on windows
 
 ## Steps
 
+* `git clone https://github.com/akhoury/chokidar-windows-early-add-event-test.git`
+* `cd chokidar-windows-early-add-event-test`
+* `npm i` or `yarn`
 * add a large file, by the name `largeFile` in `./chokidar-test/source/largeFile` or just run this
 
 ```
